@@ -18,13 +18,13 @@
       pkg-config
     ];
     buildInputs = with pkgs; [
-      xorg.libX11
-      xorg.libXft
-      xorg.libXinerama
-      xorg.libXrandr
+      libx11
+      libxft
+      libxinerama
+      libxrandr
     ];
     devInputs = with pkgs; [
-      xorg.xinit
+      xinit
       rust-analyzer
     ];
 
