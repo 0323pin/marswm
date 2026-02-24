@@ -21,10 +21,10 @@ rustPlatform.buildRustPackage rec {
 
   buildInputs = with pkgs; [
     xmenu
-    xorg.libX11
-    xorg.libXft
-    xorg.libXinerama
-    xorg.libXrandr
+    libx11
+    libxft
+    libxinerama
+    libxrandr
   ];
 
   meta = with lib; {
